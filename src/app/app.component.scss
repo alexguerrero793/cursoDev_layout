@@ -1,4 +1,19 @@
-.fondo{
-    background-color: red;
-    margin: 100%;
-}
+body {
+    margin: 0;
+    padding: 0;
+    font: normal 0,813rem arial, helvetica, sans-serif;
+    }
+    .contenedor {
+    margin: 0 auto;
+    border: solid 1p 0,063rem #aaa;
+    }
+    .cabecera   {
+    height: 7,5rem;
+    
+    }
+    .cabecera h1 {
+    margin: 0;
+    padding: 1573rem;
+    font: 3125rem arial, helvetica, sans-serif;
+    color: white;
+    }
