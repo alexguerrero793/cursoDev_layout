@@ -1,25 +1,18 @@
-.roja{
-  
-    height: 10rem;
-    background-color: red;
-}
+/* STYLE LOGIN NIKE */
 
-.azul{
-   
-    height: 10rem;
-    background-color: blue;
-}
+/* */
 
-.green{
-   
-    height: 10rem;
-    background-color: green;
-}
+.login{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
 
-.card{
-    width: 100%!important;
-}
+    .login__container{
+        padding: 3rem 0rem ;
+    }
 
-.btn-primary{
-    background-color: green;
+    .login__logo_nike{
+        fill: chartreuse!important;
+        width: 4rem;
+    }
 }
