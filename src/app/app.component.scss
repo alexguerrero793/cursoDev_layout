@@ -1,37 +1,17 @@
-.btn{
-background-color:greenyellow;
+.body{
+    height: 100%;
+    background-repeat:no-repeat;
+    margin: 0%;
+    border: 0%;
+    padding: 0%;
+    width: 100%;
+   
+    background-size: 100% 100% ; 
 }
-.form-control{
-    background-color: aqua;
+.login{
+    height:50%;
+    background-repeat: no-repeat;
+    background-image: url(../assets/DragonBallSuper.png);
+    background-size: 50%;
+ 
 }
-.collapse {
-background-color: brown;
-}
-
-.container-fluid{
-    background-color: yellowgreen;
-}
-.head{
-    background-color: springgreen;
-    margin: auto;
-}
-.row{
-    background-color: tomato;
-    font: oblique bold 150% cursive;
-}
-.text-center {
-    background-color: violet;
-    font: oblique bold 180% cursive;
-}
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap:0.625rem;
-    margin: 0.061rem;
-    border: 0.061rem;
-  }
-  .one{
-      margin: 0.061em;
-      border: 0.061rem;
-      padding: 0.061rem;
-  }
