@@ -1,0 +1,33 @@
+
+.text_web{
+    font-family: 'Montserrat', sans-serif; 
+    color: white; 
+}
+
+
+.icon{
+    font-size: 4rem;
+    padding: 2rem 0rem;
+    color: greenyellow;
+}
+
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.color-fondo{
+    background-color: black;
+}
+
+.contenido{
+    width: 100%;
+    height: 100rem;
+    background-color: cornflowerblue;
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
