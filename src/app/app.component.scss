@@ -1,5 +1,5 @@
 .btn{
-background-color: aqua;
+background-color:greenyellow;
 }
 .form-control{
     background-color: aqua;
@@ -23,3 +23,15 @@ background-color: brown;
     background-color: violet;
     font: oblique bold 180% cursive;
 }
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:0.625rem;
+    margin: 0.061rem;
+    border: 0.061rem;
+  }
+  .one{
+      margin: 0.061em;
+      border: 0.061rem;
+      padding: 0.061rem;
+  }
