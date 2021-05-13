@@ -87,14 +87,18 @@
     line-height: 4; 
     font-size: 30px; 
     color: rgb(217, 255, 0);
+    opacity: 0,5;
 }
+
 
 .color-fondo {
     background-color: navy;
-    position:static;
-    margin:0;width: 100%; 
+    position:fixed;
+    margin:0;
+    width: 100%; 
     bottom:0 ;
 }
+
 
 .ico:hover{
     cursor: pointer;
@@ -114,7 +118,7 @@
 }
 
 .formato-texto{
-    background-color: cornsilk; 
+    background-color: rgba(151, 217, 255, 0.747); 
     display: table;
     height: 220px;
     margin: 10rem auto;
@@ -133,4 +137,8 @@
     text-align: center;
     font-family: cursive;
     font-size: x-large;
+}
+
+.m-0{
+    margin: 0;
 }
