@@ -3,11 +3,54 @@
 }
 
 .imglogo {
-    width:6rem ;
-    height:6rem ;
+    width:10rem ;
+    height:8rem ;
 }
 
 .texttop {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
+h1{
+    font-size: 30px;
+    font-style:italic; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: -0,5rem;
+    margin-top: 20px;
+}
+
+.form-control {
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #00378a;
+    background-color: #e4e4e4;
+    border-radius: 6px;
+    border: 2px solid #0036ac;
+    }
+
+.btn-outline-success {
+    font-size: 15px;
+    color: #000000;
+    background-color: #e4e4e4;
+    border: 2px solid #0036ac;
+}
+
+.fondopage {
+    background: url(../assets/img/fondo1.jpg) repeat fixed content-box;
+    text-align: center;
+    padding-top: 0rem;
+}
+.barra-elementos-negra {
+    background-color: #000000;
+}
+
+.fondo-white {
+    background-color: #ffffff;
+}
+
+
+
