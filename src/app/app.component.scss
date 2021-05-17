@@ -48,10 +48,6 @@ h1{
     background-color: #000000;
 }
 
-.fondo-white {
-    background-color: #ffffff;
-}
-
 .boton-inicio {
     background-color: #080053;
     border-style: solid;
@@ -69,6 +65,20 @@ h1{
     background-color: #080053;
 }
 
+h2 {
+    margin-top: 30px;
+}
 
+p{
+    line-height: 2;
+}
 
+.black {
+    background-color: #000000;
+    line-height: 4;
+}
 
+.ico {
+    color: white;
+    font-size: 30px;
+}
