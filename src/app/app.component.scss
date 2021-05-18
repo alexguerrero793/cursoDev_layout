@@ -67,10 +67,17 @@ h1{
 
 h2 {
     margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:unset;
+    margin-right: 100%;
+    font-size: 50px;
 }
 
 p{
     line-height: 2;
+    text-align: justify;
+    box-sizing:initial;
+    margin-left: auto;
 }
 
 .black {
@@ -82,3 +89,45 @@ p{
     color: white;
     font-size: 30px;
 }
+
+.texto-inicio{
+    background-color: rgba(211, 211, 211, 0.616); 
+    display: table;
+    width: 80%;
+    height: 80%;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    text-align: justify;
+}
+
+.texto-misiones{
+    background-color: rgba(211, 211, 211, 0.616); 
+    display: table;
+    width: 80%;
+    height: 80%;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    text-align: justify;
+}
+
+.texto-img{
+    background-color: rgba(211, 211, 211, 0.616); 
+    display: table;
+    width: 80%;
+    height: 80%;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    text-align: justify;
+}
+
+.img {
+    height: 12rem;
+    width: 12rem;
+    margin: 2em;
+    border: #000000;
+    border-radius: 3%;
+}
+
