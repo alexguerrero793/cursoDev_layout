@@ -1,0 +1,37 @@
+// ****** WEB GYM ***********
+// *** DESIGN https://www.pinterest.es/pin/118149190214612991/ ***************
+
+
+//VARIABLES COLORS
+$color-primary: #d98855;
+$color-secundary: white;
+$color-acomp: black;
+$text-color: #111;
+//*******
+
+//CONTENT-MAX
+.content-max{
+    width: 75rem;
+    margin: 0 auto;
+}
+
+//******
+
+//CONTACT
+.contact{
+    background-color: black;
+    .icon{
+        color: $color-primary;
+    }
+}
+
+//SECTION-ONE
+.section-one{
+    background-image: url(../assets/img/gym/sectionOne.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+
+
