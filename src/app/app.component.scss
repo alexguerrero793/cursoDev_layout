@@ -1,6 +1,8 @@
 .fondopage{
     background-image: url(../assets/img/simpson/skyttttt.png);
     background-position: center;
+    box-shadow: 1px 5px 5px black;
+    
     
 }
 
@@ -31,16 +33,35 @@
         font-style: oblique;
         font-size: 1.1rem;
         -webkit-text-stroke: 1px black;
+        text-shadow: 2px 2px 2px #000;
     }   
 
         a:hover{
             pointer-events: painted;
             color: rgb(255, 0, 0);
-        }
+    }
+
+    .comienza{
+        color: yellow;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 3rem;
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px #000;
+        padding: 1rem;
+
+    }
+
+     
 
 
 .centro{
     background-color: yellow;
+}
+
+.logo-simpson{
+    height: 5rem;
 }
 
 
