@@ -1,8 +1,23 @@
-.fondo{
+.fondopage{
     background-image: url(../assets/img/simpson/skyttttt.png);
     background-position: center;
     
 }
+
+.imglogo{
+    height: 3rem;
+}
+
+.btn-outline-success {
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+}
+
+.form-control {
+    color: black;
+    background-color: yellow;
+}
+
 
     a{
         color: yellow;
@@ -18,8 +33,5 @@
             color: rgb(255, 0, 0);
         }
 
-.img-logo{
-    height: 6rem;
-}
 
 
