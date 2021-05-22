@@ -1,0 +1,25 @@
+.fondo{
+    background-image: url(../assets/img/simpson/skyttttt.png);
+    background-position: center;
+    
+}
+
+    a{
+        color: yellow;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 1.1rem;
+        -webkit-text-stroke: 1px black;
+    }   
+
+        a:hover{
+            pointer-events: painted;
+            color: rgb(255, 0, 0);
+        }
+
+.img-logo{
+    height: 6rem;
+}
+
+
