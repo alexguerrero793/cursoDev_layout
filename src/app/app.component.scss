@@ -83,5 +83,24 @@
     bottom: 10rem;
 }
 
+.fondo-contenedor-2{
+    background-image: url(../assets/img/simpson/25187-los-simpsons.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img-pica{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 1rem;
+    
+}
+
 
 
