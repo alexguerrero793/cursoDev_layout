@@ -97,10 +97,15 @@
 .img-pica{
     max-width: 100%;
     height: auto;
-    position: initial;
-    top: -17rem;
-    padding-top: 48rem;
+    position: relative;
+    top: -48rem;
+    padding-top: 49rem;
     
+}
+
+hr{
+    height: 10px;
+  background-color: black;
 }
 
 
