@@ -67,13 +67,6 @@ $bordes: black;
         
     }
 
-    .img-texto{
-        height: 3rem;
-        position: absolute;
-        left: 30rem;
-        bottom: 10rem;
-    }
-
     .fondo-contenedor-1{
         background-image: url(../assets/img/simpson/25187-los-simpsons.jpg);
         background-size: cover;
@@ -86,9 +79,11 @@ $bordes: black;
     }
 
     .img-pica{
-        max-width: 100%;
         position: relative;
         padding-top: 48rem;
+        text-align: center;
+        width: auto;
+    
         
     }
 
