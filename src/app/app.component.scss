@@ -96,6 +96,7 @@ $bordes: black;
 }
 //END CONTENEDOR-1
 
+//CONTENEDOR-2
 .contenedor-2{
     
     background-image: url(../assets/img/simpson/fondo-container-2.png);
@@ -118,18 +119,22 @@ $bordes: black;
         font-family: sans-serif;
         font-weight: bold;
         font-style: oblique;
-        font-size: 1.1rem;
+        font-size: 5rem;
         -webkit-text-stroke: 1px black;
-        text-shadow: 2px 2px 2px #000;
+        text-shadow: 15px 15px 15px #000;
         padding-bottom: 20rem;
 
     }
 
     .acordeon{
-        position: relative
-        ;
+        position: relative;
+    }
+
+    .accordion{
+        opacity: 85%;
     }
 }
+//END CONTENEDOR-2
 
 
 
