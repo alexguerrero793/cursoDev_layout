@@ -10,7 +10,7 @@ $bordes: rgb(255, 0, 0);
 .contenedor-1{
     opacity: 99%;
     background-color: white;
-    box-shadow: 0px 10px 10px $color-primary;
+    box-shadow: 0px 0px 20px $color-coke;
 
     .logo-principal{
         width: 6rem;
@@ -32,7 +32,11 @@ $bordes: rgb(255, 0, 0);
 .fondo-coke{
     background-image: url(../assets/img/cocacola/lata-coke.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+
 }
 .contenedor-2{
 
@@ -66,6 +70,25 @@ $bordes: rgb(255, 0, 0);
 }
 //END CONTENEDOR-2
     
+
+//CONTENEDOR-3
+.fondo-coke-2{
+    background-image: url(../assets/img/cocacola/light.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.contenedor-3{
+    .texto-h2{
+        color: $color-tres;
+        text-shadow: 0px 5px 10px $color-coke;
+
+    }
+
+}
 
 
 
