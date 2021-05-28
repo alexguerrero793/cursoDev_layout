@@ -4,7 +4,7 @@ $color-secundary: rgb(255, 0, 0);
 $text-color: black;
 $bordes: rgb(255, 0, 0);
 
-
+//CONTENEDOR-1
 .contenedor-1{
     opacity: 99%;
     background-color: white;
@@ -23,7 +23,10 @@ $bordes: rgb(255, 0, 0);
         width: 7rem;
     }
 }
+//END CONTENEDOR-1
 
+
+//CONTENEDOR-2
 .contenedor-2{
     background-image: url(../assets/img/cocacola/coca-cola-wallpaper-4.jpg);
     background-repeat: no-repeat;
@@ -43,7 +46,7 @@ $bordes: rgb(255, 0, 0);
     
 
 }
-
+//END CONTENEDOR-2
     
 
 
