@@ -83,6 +83,12 @@ $bordes: rgb(255, 0, 0);
 
 .contenedor-3{
     .texto-h2{
+        color: $color-coke;
+        text-shadow: 0px 5px 10px $color-primary;
+
+    }
+
+    .texto-h3{
         color: $color-tres;
         text-shadow: 0px 5px 10px $color-coke;
 
