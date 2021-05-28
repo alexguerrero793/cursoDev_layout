@@ -87,16 +87,47 @@ $bordes: rgb(255, 0, 0);
 
 .contenedor-3{
     .texto-h2{
+        font-size: 4rem;
         color: $color-coke;
         text-shadow: 0px 5px 10px $color-primary;
+        padding-top: 1rem;
 
     }
 
     .texto-h3{
         color: $color-tres;
         text-shadow: 0px 5px 10px $color-coke;
+        padding-top: 1rem;
 
     }
+
+    .caja-ayuda{
+        height: 200px;
+    }
+
+    .texto-circulo{
+        font-family: sans-serif;
+        color: white;
+        font-size: 1.4rem;
+        font-weight: bold;
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+        background: red;
+        display: flex;
+        box-shadow: 25px 5px 20px black;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:0px auto;
+        padding:3%;
+        text-shadow: 0px 5px 10px $color-primary;
+
+        
+    }
+
+
+
 
 }
 
