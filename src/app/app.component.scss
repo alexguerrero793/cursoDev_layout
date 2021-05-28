@@ -1,6 +1,8 @@
 //VARIABLES DE COLOR
 $color-primary: rgb(0, 0, 0);
 $color-secundary: rgb(255, 0, 0);
+$color-tres: white;
+$color-coke:  #fe0410;
 $text-color: black;
 $bordes: rgb(255, 0, 0);
 
@@ -27,19 +29,35 @@ $bordes: rgb(255, 0, 0);
 
 
 //CONTENEDOR-2
-.contenedor-2{
-    background-image: url(../assets/img/cocacola/coca-cola-wallpaper-4.jpg);
+.fondo-coke{
+    background-image: url(../assets/img/cocacola/lata-coke.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 85%;
+}
+.contenedor-2{
 
-    .img-logo-zero{
+    .img-logo-lata{
         width: 25%;
+        text-align: end;
+        float: right;
+        margin: 20px;
 
     }
 
     .texto{
-        color: $color-primary;
+        color: $color-tres;
+        text-align: end;
+        text-shadow: 0px 5px 10px $color-coke;
+        margin: 20px;
+        
+    }
+
+    .btn{
+        background-color: $color-coke;
+        float: right;
+        margin: 20px;
+        padding: 10px;
+        border-color: #fe0410;
     }
 
   
