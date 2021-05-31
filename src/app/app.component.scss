@@ -29,108 +29,13 @@ $bordes: rgb(255, 0, 0);
 
 
 //CONTENEDOR-2
+
 .fondo-coke{
+    height: 1080px;
     background-image: url(../assets/img/cocacola/lata-coke.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    
-
+    background-size: 1080px;
+    background-position: center;
 }
-.contenedor-2{
-
-    .caja-ayuda{
-        height: 90px;
-    }
-
-    .img-logo-lata{
-        width: 25%;
-        text-align: end;
-        float: right;
-        margin: 20px;
-
-    }
-
-    .texto{
-        color: $color-tres;
-        text-align: end;
-        text-shadow: 0px 5px 10px $color-coke;
-        margin: 20px;
-        
-    }
-
-    .btn{
-        background-color: $color-coke;
-        float: right;
-        margin: 20px;
-        padding: 10px;
-        border-color: #fe0410;
-    }
-
-  
-    
-
-}
-//END CONTENEDOR-2
-    
-
-//CONTENEDOR-3
-.fondo-coke-2{
-    background-image: url(../assets/img/cocacola/light.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-
-}
-
-.contenedor-3{
-    .texto-h2{
-        font-size: 4rem;
-        color: $color-coke;
-        text-shadow: 0px 5px 10px $color-primary;
-        padding-top: 1rem;
-
-    }
-
-    .texto-h3{
-        color: $color-tres;
-        text-shadow: 0px 5px 10px $color-coke;
-        padding-top: 1rem;
-
-    }
-
-    .caja-ayuda{
-        height: 200px;
-    }
-
-    .texto-circulo{
-        font-family: sans-serif;
-        color: white;
-        font-size: 1.4rem;
-        font-weight: bold;
-        width: 12rem;
-        height: 12rem;
-        border-radius: 50%;
-        background: red;
-        display: flex;
-        box-shadow: 25px 5px 20px black;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin:0px auto;
-        padding:3%;
-        text-shadow: 0px 5px 10px $color-primary;
-
-        
-    }
-
-
-
-
-}
-
 
 
 
