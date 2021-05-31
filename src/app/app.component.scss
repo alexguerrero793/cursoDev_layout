@@ -31,10 +31,42 @@ $bordes: rgb(255, 0, 0);
 //CONTENEDOR-2
 
 .fondo-coke{
-    height: 1080px;
+    
     background-image: url(../assets/img/cocacola/lata-coke.jpg);
-    background-size: 1080px;
     background-position: center;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+
+    .img-logo-lata{
+        width: 10rem;
+
+        float: right;
+        padding:2rem;
+    }
+
+    .btn-primary{
+        background-color: #fe0410;
+        border: #fe0410;
+        float: right;
+        margin: 30px;
+    }
+
+    .texto{
+        font-size: 2.5rem;
+        text-align: end;
+    }
+
+    .texto-1{
+        text-align: left;
+    }
+}
+
+.fondo-coke-2{
+    background-image: url(../assets/img/cocacola/light.png);
+    background-position: center;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+
 }
 
 
