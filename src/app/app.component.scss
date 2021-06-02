@@ -32,10 +32,13 @@ $bordes: rgb(255, 0, 0);
 
 .fondo-coke{
 
+    height: 1000px;
+
     background-image: url(../assets/img/cocacola/lata-coke.jpg);
+    background-size: cover;
     background-position: center;
-    background-size: 100% cover;
-    background-repeat: no-repeat;
+}
+
 
     .img-logo-lata{
         width: 10rem;
@@ -56,16 +59,16 @@ $bordes: rgb(255, 0, 0);
         text-shadow: $color-coke 5px 5px 5px;
     }
 
-   
-}
-
 
 //CONTENEDOR-3
 .fondo-light{
     background-image: url(../assets/img/cocacola/light.png);
+    background-size: cover;
     background-position: center;
-    background-size: 100% cover;
-    background-repeat: no-repeat;
+
+    height: 700px;
+}
+
 
     p.circulo{
         color: $color-tres;
@@ -109,35 +112,44 @@ $bordes: rgb(255, 0, 0);
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
-}
-
 //END CONTENEDOR-3
 
 
 //CONTENEDOR-4
 .fondo-zero{
     background-image: url(../assets/img/cocacola/lata-zero.jpg);
+    background-size: cover;
     background-position: center;
-    background-size: 100% cover;
-    background-repeat: no-repeat;
 
-    .refresco-cola-zero{
+    height: 700px;
+}
+
+
+.refresco-cola-zero{
         width: 10rem;
     }
 
-    .text-cola-zero{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 2.5rem;
-        text-align:end;
-        color: $color-tres;
-        text-shadow: $color-coke 5px 5px 5px;
+.text-cola-zero{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    text-align:end;
+    color: $color-tres;
+    text-shadow: $color-coke 5px 5px 5px;
 
     }
-
-}
 //END CONTENEDOR-4
 
 
+.fondo-final{
+    background-image: url(../assets/img/cocacola/coca-cola-wallpaper-4.jpg);
+}
+
+.img-margin{
+    width:20rem ;
+    margin: 6em;
+    border: #000000;
+    border-radius: 3%;
+}
 
 
 
