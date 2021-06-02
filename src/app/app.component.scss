@@ -31,7 +31,7 @@ $bordes: rgb(255, 0, 0);
 //CONTENEDOR-2
 
 .fondo-coke{
-    
+
     background-image: url(../assets/img/cocacola/lata-coke.jpg);
     background-position: center;
     background-size: 100% cover;
@@ -41,33 +41,82 @@ $bordes: rgb(255, 0, 0);
         width: 10rem;
 
         float: right;
-        padding:2rem;
     }
 
-    .btn-primary{
-        background-color: #fe0410;
-        border: #fe0410;
+    .boton1{
+        background-color:$color-coke;
+        border:$color-coke;
         float: right;
-        margin: 30px;
     }
 
     .texto{
         font-size: 2.5rem;
         text-align: end;
+        color: $color-tres;
+        text-shadow: $color-coke 5px 5px 5px;
     }
 
-    .texto-1{
-        text-align: left;
-    }
+   
 }
 
-.fondo-coke-2{
+
+//CONTENEDOR-3
+.fondo-light{
     background-image: url(../assets/img/cocacola/light.png);
     background-position: center;
     background-size: 100% cover;
     background-repeat: no-repeat;
 
+    p.circulo{
+        color: $color-tres;
+        text-shadow: $color-primary 5px 5px 5px;
+
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+        width: 10rem;
+	    height: 10rem;
+	    border-radius: 50%;
+        box-shadow: $color-primary 5px 5px 5px;
+	    background: red;
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center;
+        margin:0px auto;
+        padding:3%
+    }
+
+    h2.texto-1{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2.5rem;
+        text-align:center;
+        color: $color-primary;
+        text-shadow: $color-coke 5px 5px 5px;
+    }
+
+    h3.texto-3{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.5rem;
+        text-align:center;
+        color: $color-tres;
+        text-shadow: $color-primary 5px 5px 5px;
+            
+    }
+
+    .boton-circle{
+        background-color: $color-primary;
+        color: $color-coke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
 }
+
+//END CONTENEDOR-3
+
+
+
+
+
 
 
 
