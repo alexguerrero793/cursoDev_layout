@@ -114,6 +114,30 @@ $bordes: rgb(255, 0, 0);
 //END CONTENEDOR-3
 
 
+//CONTENEDOR-4
+.fondo-zero{
+    background-image: url(../assets/img/cocacola/lata-zero.jpg);
+    background-position: center;
+    background-size: 100% cover;
+    background-repeat: no-repeat;
+
+    .refresco-cola-zero{
+        width: 10rem;
+    }
+
+    .text-cola-zero{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 2.5rem;
+        text-align:end;
+        color: $color-tres;
+        text-shadow: $color-coke 5px 5px 5px;
+
+    }
+
+}
+//END CONTENEDOR-4
+
+
 
 
 
