@@ -28,6 +28,30 @@ $bordes: rgb(255, 0, 0);
 //END BARRA SUPERIOR
 
 
+//CONTENEDOR-1
+
+.contenedor-1{
+
+    height: 650px;
+    background-image:url(../assets/img/cocacola/281640f970a3a54f61e75b17a95499ae.jpg);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: 100%;
+
+
+    .img-contenedor-1{
+        height: 8rem;
+
+    }
+
+    .btn-primary{
+        background-color: $color-coke;
+        color: $color-primary;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+
 
 
 
