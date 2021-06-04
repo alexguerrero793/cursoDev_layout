@@ -6,8 +6,8 @@ $color-coke:  #fe0410;
 $text-color: black;
 $bordes: rgb(255, 0, 0);
 
-//CONTENEDOR-1
-.contenedor-1{
+//BARRA SUPERIOR
+.barra-superior{
     opacity: 99%;
     background-color: white;
     box-shadow: 0px 0px 20px $color-coke;
@@ -25,7 +25,7 @@ $bordes: rgb(255, 0, 0);
         width: 7rem;
     }
 }
-//END CONTENEDOR-1
+//END BARRA SUPERIOR
 
 
 
