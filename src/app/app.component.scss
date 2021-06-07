@@ -41,8 +41,10 @@ $bordes: rgb(255, 0, 0);
 
     .img-contenedor-1{
         height: 8rem;
-
     }
+
+
+    
 
     .btn-primary{
         background-color: $color-coke;
@@ -58,6 +60,9 @@ $bordes: rgb(255, 0, 0);
         color: $color-tres;
         margin: 1rem;
         text-shadow: $color-coke 1px 3px 5px;
+        @media (max-width: 1024px){
+            font-size: 1rem;
+        }
     }
 }
 
