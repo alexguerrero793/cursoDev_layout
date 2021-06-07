@@ -62,7 +62,7 @@ $bordes: rgb(255, 0, 0);
         font-size: 1.5rem;
         border: $color-coke;
         @media (max-width: 1024px){
-            font-size: 0.5rem;
+            font-size: 0.8rem;
         }
 
     }
@@ -75,6 +75,7 @@ $bordes: rgb(255, 0, 0);
             font-size: 1rem;
         }
         padding-top: 0.5rem;
+        text-align: left;
     }
 }
 
