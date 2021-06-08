@@ -1,0 +1,45 @@
+// VARIABLE COLOR
+
+  $color-primary:black;
+  $color-secundary:#77a04f;
+  $color-tercery:white;
+
+
+  .adiddas{
+
+    background-repeat: no-repeat;
+    background-size:auto;
+    
+
+
+    background-image:url(https://www.futbolemotion.com/imagesuploads/jugadores/10/grandes/1594889531leo-messi.jpg);
+    background-position:center,center;
+    background-size:cover;
+    box-shadow: 6px 20px 10px $color-primary; ;
+    height: 13rem;
+  }
+
+  .row{
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-modelo-campo-hierba-verde-deportes-futbol-futbol-fondo-textura-cesped-verde_64749-2289.jpg);
+    background-position: center,center;
+    background-size: cover;
+
+    padding:3rem
+  }
+
+
+ 
+  
+.fondo{
+padding-top:1.8rem;
+box-shadow: 6px 20px 10px $color-primary;
+}
+
+.image{
+  padding-top: 2rem;
+}
+
