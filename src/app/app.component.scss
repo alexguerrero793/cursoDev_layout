@@ -32,7 +32,6 @@ $bordes: rgb(255, 0, 0);
 
 .contenedor-1{
 
-    height: 650px;
     background-image:url(../assets/img/cocacola/281640f970a3a54f61e75b17a95499ae.jpg);
     background-repeat: no-repeat;
     background-position:initial;
@@ -81,6 +80,59 @@ $bordes: rgb(255, 0, 0);
 
 //END CONTENEDOR-1
 
+
+//CONTENEDOR-2
+
+.contenedor-2{
+
+    background-image: url(../assets/img/cocacola/light.png);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: 100% auto;
+
+    h2.disfruta{
+        color: $color-primary;
+        text-shadow: 1px 1px 3px $color-coke;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding: 0.8rem;
+
+        @media (max-width: 1024px){
+            font-size: 1rem;
+            
+        }
+    }
+
+    .circulo{
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin:0px auto;
+        padding:3%;
+        box-shadow: 5px 5px 5px $color-primary;
+
+        @media (max-width: 1024px){
+            width: 4rem;
+            height: 4rem;
+            
+        }
+    }
+
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: $color-primary;
+        font-size: 1.5rem;
+
+        @media (max-width: 1024px){
+            font-size: 0.8rem;
+            
+        }
+    }
+}
 
 
 
